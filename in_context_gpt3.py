@@ -67,10 +67,10 @@ def parse_gpt_response(GPT3_response):
 
 
 if __name__ =='__main__':
-
+    key = "your openai key"
     res = in_context_gpt3('''
     晓明，早上不好意思，我不是故意的
-    ''')
+    ''', key)
     print(res) # 'apology', '"晓明，早上不好意思，我不是故意的"', 'No', 0.0271
 
 
